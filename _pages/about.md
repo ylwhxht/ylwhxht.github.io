@@ -15,6 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+# 🧑‍🎓 个人简介/Introduction
 <span class='anchor' id='about-me'></span>
 你好呀😊。我是黄勋，目前博士就读于[厦门大学](https://www.xmu.edu.cn/)，于[北京中关村学院](http://bjzgca.bjedu.cn:81)联合培养，我的导师是[温程璐教授](https://informatics.xmu.edu.cn/info/1385/26639.htm)与[王程教授](https://chwang.xmu.edu.cn/)。
 
