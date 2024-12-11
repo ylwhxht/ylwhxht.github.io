@@ -31,8 +31,8 @@ My research areas mainly focus on:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
-- *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.png" width="23pt"></a> 厦门大学 人工智能研究院，福建厦门， 博士（硕博连读）
-- *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.png" width="20pt"></a> 厦门大学 信息学院，福建厦门， 硕士（推免）
+- *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="23pt"></a> 厦门大学 人工智能研究院，福建厦门， 博士（硕博连读）
+- *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 信息学院，福建厦门， 硕士（推免）
 - *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="20pt"></a> 集美大学 计算机工程学院， 福建厦门, 本科
 <span class='anchor' id='-lwzl'></span>
 
