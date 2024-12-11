@@ -43,7 +43,9 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2024 (CCF-A)** :  Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
+**AAAI2024 (CCF-A)** 
+
+Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
 `Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang.
 
@@ -56,7 +58,9 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2025 (CCF-A)** : 	L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+**AAAI2025 (CCF-A)** 
+
+L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
 `Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. 
 
@@ -68,7 +72,9 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Submitted to CCF-A Conference**	: V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
+**Arxiv (Submitted to CCF-A Conference)**	
+
+V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
 
 `Xun Huang`, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
 
@@ -106,7 +112,36 @@ My research areas mainly focus on:
 
 <span class='anchor' id='-gzsx'></span>
 
-# 💻 工作实习
-- *2018.05 - 2020.02*, 重庆长江轴承股份有限公司, 重庆
-- *2020.11.25 - 2020.12.02*, 湖北新冶钢有限公司, 湖北黄石
-- *2017.6 - 2021.1*, 制造装备数字化国家工程研究中心, 湖北武汉
+# 💻 其他经历
+- PAT-Professional Ability Test-Top(顶级)100 分 (该年可 1.5 倍换算浙江大学计算机学院复试上机成绩,满分 100 分）
+- 担任 T-PAMI，T-ITS，GRSL，PRCV 审稿人，并参与协助审稿 CVPR，ECCV，NIPS 论文
+- 于 CSDN 博客平台分享原创科技论文等文章 112 篇，内容获 12w+阅读量，上千次点赞与收藏
+
+<span class='anchor' id='-gzsx'></span>
+
+# 🎮 娱乐/Gaming
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">College competition of Teamfight Tactics</div><img src='images/gaoxiao.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+金铲铲之战高校赛八强
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master Challenger in League of Legends</div><img src='images/lpl.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+英雄联盟艾欧尼亚超凡大师
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">The strongest King in Teamfight Tactics</div><img src='images/chanchan.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+金铲铲之战最强王者（千分王者，全服前400）
+
+</div>
+</div>
+
