@@ -32,25 +32,41 @@ My research areas mainly focus on:
 
 # 🎓 学历/Education
 
-- *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 人工智能研究院， 福建厦门， 博士（硕博连读）
-- *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 信息学院     ，  福建厦门， 硕士（推免）
-- *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="20pt"></a> 集美大学 计算机工程学院， 福建厦门,  本科（GPA/综合排名均为1/116）
+- *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 人工智能研究院, 福建厦门， 博士（硕博连读）
+- *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 信息学院     ,  福建厦门， 硕士（推免）
+- *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="20pt"></a> 集美大学 计算机工程学院, 福建厦门,  本科（GPA/综合排名均为1/116）
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 科研成果/Research Achievements
 
----
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2022</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Jian Tang`, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang. Mechanism of magnetic flux leakage detection method based on the slotted ferromagnetic lift-off layer. *Sensors*, 2022, 22(9): 3587. (JCR:Q2; IF:3.847)  
-[[网页]](https://dx.doi.org/10.3390/s22093587) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf) [[下载]](/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf)
+-	`Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang. Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection. *AAAI*, 2024, 38 (3), 2409-2416. (CCF-A)  
+[[paper]](https://arxiv.org/abs/2402.18493) [[code]](https://github.com/ylwhxht/SRKD-DRET) 
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/sna2021.svg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+-	`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection. *AAAI*, 2025. (CCF-A)  
+[[paper]](https://arxiv.org/abs/2408.03677) [[code]](https://github.com/ylwhxht/L4DR) 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+-	`Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen. V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion. Submitted to CCF-A Conference.  
+[[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/) 
+
+</div>
+</div>
 
 
 
