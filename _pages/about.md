@@ -35,6 +35,7 @@ My research areas mainly focus on:
 - *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 人工智能研究院, 福建厦门， 博士（硕博连读）
 - *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 信息学院     ,  福建厦门， 硕士（推免）
 - *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="20pt"></a> 集美大学 计算机工程学院, 福建厦门,  本科（GPA/综合排名均为1/116）
+
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 科研成果/Research Achievements
@@ -92,9 +93,9 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 
 - **ECCV2024 (CCF-A)** : Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
-<span class='anchor' id='-ryjx'></span>
+<span class='anchor' id='-jsjx'></span>
 
-<span class='anchor' id='-'></span>
+
 
 # 🏆 竞赛奖项/Competition Awards
 - *2019.10*, CCPC 中国大学生程序设计竞赛哈尔滨站铜奖
@@ -102,7 +103,9 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 - *2020.10*, CCPC 中国大学生程序设计竞赛威海站铜奖
 - *2021.05*, 中国高校计算机大赛——团体程序设计天梯赛团队全国金奖、福建省特等奖
 - *2021.05*, ACM-ICPC 国际大学生程序设计竞赛西安邀请赛铜奖、银川站铜奖
-  
+
+
+<span class='anchor' id='-rych'></span>
 # 🏅 荣誉称号/Honorary Titles
 - 本科生国家奖学金  
 - 专业一等奖学金（8次）
@@ -113,14 +116,15 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 - 优秀学生干部
 - 优秀毕业生
 
-<span class='anchor' id='-gzsx'></span>
+
+<span class='anchor' id='-qtjl'></span>
 
 # 💻 其他经历/Others
 - PAT-Professional Ability Test-Top (顶级) `100 分` (该年可 1.5 倍换算浙江大学计算机学院复试上机成绩,满分 100 分）
 - 担任 `T-PAMI`，T-ITS，GRSL，PRCV 审稿人，并参与协助审稿 CVPR，ECCV，NIPS 论文
 - 于 CSDN 博客平台分享原创科技论文等文章 112 篇，内容获`12w+阅读量`，上千次点赞与收藏
 
-<span class='anchor' id='-gzsx'></span>
+<span class='anchor' id='-yl'></span>
 
 # 🎮 娱乐/Gaming
 
