@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "简介"
+  - title: "个人简介"
     url: "/#about-me"
 
-  - title: "学历"
+  - title: "教育经历"
     url: "/#-xl"
 
   - title: "科研成果"
