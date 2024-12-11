@@ -19,11 +19,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 你好呀😊。我是黄勋，目前博士就读于[厦门大学](https://www.xmu.edu.cn/)，于[北京中关村学院](http://bjzgca.bjedu.cn:81)联合培养，我的导师是[温程璐教授](https://informatics.xmu.edu.cn/info/1385/26639.htm)与[王程教授](https://chwang.xmu.edu.cn/)。
 
-Hi 😊. I am Xun Huang, currently pursuing a PhD at [Xiamen University](https://www.xmu.edu.cn/), jointly trained at [Zhongguancun Academy](http://bjzgca.bjedu.cn:81). My supervisor is prof. [Chenglu Wen](https://informatics.xmu.edu.cn/info/1385/26639.htm) and prof. [Cheng Wang](https://chwang.xmu.edu.cn/).
-
 我的研究领域主要包括：
 - 恶劣天候鲁棒三维目标检测
 - 主动具身感知
+
+Hi 😊. I am Xun Huang, currently pursuing a PhD at [Xiamen University](https://www.xmu.edu.cn/), jointly trained at [Zhongguancun Academy](http://bjzgca.bjedu.cn:81). My supervisor is prof. [Chenglu Wen](https://informatics.xmu.edu.cn/info/1385/26639.htm) and prof. [Cheng Wang](https://chwang.xmu.edu.cn/).
+
+
 
 My research areas mainly focus on:
 - Robust 3D object detection in adverse weather
