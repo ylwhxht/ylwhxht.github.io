@@ -94,7 +94,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 
 <span class='anchor' id='-ryjx'></span>
 
-<span class='anchor' id='-xshy'></span>
+<span class='anchor' id='-'></span>
 
 # 🏆 竞赛奖项/Competition Awards
 - *2019.10*, CCPC 中国大学生程序设计竞赛哈尔滨站铜奖
