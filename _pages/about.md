@@ -31,7 +31,7 @@ My research areas mainly focus on:
 
 <span class='anchor' id='-xl'></span>
 
-# 🎓 学历/Education
+# 🎓 教育经历/Education
 
 - *2016.06 - 2022.12*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 人工智能研究院, 福建厦门， 博士（硕博连读）
 - *2012.09 - 2016.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="20pt"></a> 厦门大学 信息学院     ,  福建厦门， 硕士（推免）
@@ -127,7 +127,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 
 <span class='anchor' id='-yl'></span>
 
-# 🎮 娱乐/Gaming
+# 🎮 娱乐活动/Gaming
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">College competition of Teamfight Tactics</div><img src='images/gaoxiao.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
