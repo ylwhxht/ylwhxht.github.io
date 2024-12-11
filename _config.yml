@@ -9,7 +9,7 @@
 title                    : "黄勋"
 description              : "计算机视觉-场景感知"
 repository               : "ylwhxht/ylwhxht.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :"huangxun" # get google_analytics_id from https://analytics.google.com/analytics/
