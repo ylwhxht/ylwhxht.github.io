@@ -62,14 +62,15 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **Submitted to CCF-A Conference**	: `Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen. V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.   
+- **Submitted to CCF-A Conference**	: V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
+`Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
+
 [[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/) 
 
 </div>
 </div>
 
-- Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15(20): 7362. (JCR:Q1; IF:3.748)  
-[[HTML]](https://dx.doi.org/10.3390/ma15207362) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[PDF]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
+- **AAAI2025 (CCF-A)** : Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
 
 
 <span class='anchor' id='-ryjx'></span>
