@@ -49,6 +49,8 @@ My research areas mainly focus on:
 
 Published 2 `AAAI`, 2 `CVPR`, 1 `ECCV` papers. Among them, I have published 2 `AAAI` papers as `first author`.
 
+<span class='anchor' id='yy'></span>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
