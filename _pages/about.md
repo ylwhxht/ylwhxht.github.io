@@ -23,7 +23,7 @@ redirect_from:
 - 恶劣天候鲁棒三维目标检测
 - 主动具身感知
 
-<span class='anchor' id='yy'></span>
+---
 
 Hi 😊. I am Xun Huang, currently pursuing a PhD at [Xiamen University](https://www.xmu.edu.cn/), jointly trained at [Zhongguancun Academy](http://bjzgca.bjedu.cn:81). My supervisor is prof. [Chenglu Wen](https://informatics.xmu.edu.cn/info/1385/26639.htm) and prof. [Cheng Wang](https://chwang.xmu.edu.cn/).
 
@@ -49,7 +49,7 @@ My research areas mainly focus on:
 
 Published 2 `AAAI`, 2 `CVPR`, 1 `ECCV` papers. Among them, I have published 2 `AAAI` papers as `first author`.
 
-<span class='anchor' id='yy'></span>
+---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
