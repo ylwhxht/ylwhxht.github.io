@@ -43,7 +43,7 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	**AAAI2024 (CCF-A)** :  Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
+**AAAI2024 (CCF-A)** :  Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
 `Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang.
 
@@ -56,7 +56,7 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **AAAI2025 (CCF-A)** : 	L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+**AAAI2025 (CCF-A)** : 	L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
 `Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. 
 
@@ -68,7 +68,7 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **Submitted to CCF-A Conference**	: V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
+**Submitted to CCF-A Conference**	: V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
 
 `Xun Huang`, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
 
@@ -85,17 +85,24 @@ My research areas mainly focus on:
 
 <span class='anchor' id='-ryjx'></span>
 
-# 🏅 荣誉奖项
-- *2015.11* 获得 第十四届“挑战杯”全国大学生课外学术科技作品竞赛 `一等奖`  
-- *2015.06* 获得 第十三届“挑战杯”四川大学生课外学术科技作品竞赛 `一等奖` [[新闻]](https://www.sc.gov.cn/10462/10778/10876/2015/7/1/10341562.shtml)  
-- *2014.12* 获得 第四届全国大学生工程训练综合能力竞赛（四川赛区） `一等奖`  
-
 <span class='anchor' id='-xshy'></span>
 
-# 🏛️ 学术会议
-- *2021.10*, 全国电磁无损检测技术研讨会 暨 中国机械工程学会无损检测分会电磁专业技术大会第十一届第四次全体会议, 陕西西安, 受邀报告
-- *2019.09*, 第十九届国际应用电磁学与力学会议 (ISEM 2019), 江苏南京, 海报
-- *2017.10*, 第六届中国国际管道会议 (CIPC 2017), 河北廊坊
+# 🏆 竞赛奖项/Competition Awards
+- *2019.10*, CCPC 中国大学生程序设计竞赛哈尔滨站铜奖
+- *2020.10*, 蓝桥杯大赛软件类C/C++程序设计福建省一等奖、全国一等奖
+- *2020.10*, CCPC 中国大学生程序设计竞赛威海站铜奖
+- *2021.05*, 中国高校计算机大赛——团体程序设计天梯赛团队全国金奖、福建省特等奖
+- *2021.05*, ACM-ICPC 国际大学生程序设计竞赛西安邀请赛铜奖、银川站铜奖
+  
+# 🏅 荣誉称号/Honorary Titles
+- 本科生国家奖学金  
+- 专业一等奖学金（8次）
+- 厦门市陈嘉庚奖学金
+- 麦克奥迪奖学金
+- 校级三好学生
+- 优秀共青团员
+- 优秀学生干部
+- 优秀毕业生
 
 <span class='anchor' id='-gzsx'></span>
 
