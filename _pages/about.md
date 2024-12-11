@@ -39,6 +39,9 @@ My research areas mainly focus on:
 
 # 📝 科研成果/Research Achievements
 
+共发表2篇`AAAI`，2篇`CVPR`，1篇`ECCV`论文。其中以`第一作者`发表发表2篇`AAAI`.
+
+Published 2 `AAAI`, 2 `CVPR`, 1 `ECCV` papers. Among them, I have published 2 `AAAI` papers as `first author`.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -112,10 +115,10 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 
 <span class='anchor' id='-gzsx'></span>
 
-# 💻 其他经历
-- PAT-Professional Ability Test-Top(顶级)100 分 (该年可 1.5 倍换算浙江大学计算机学院复试上机成绩,满分 100 分）
-- 担任 T-PAMI，T-ITS，GRSL，PRCV 审稿人，并参与协助审稿 CVPR，ECCV，NIPS 论文
-- 于 CSDN 博客平台分享原创科技论文等文章 112 篇，内容获 12w+阅读量，上千次点赞与收藏
+# 💻 其他经历/Others
+- PAT-Professional Ability Test-Top (顶级) `100 分` (该年可 1.5 倍换算浙江大学计算机学院复试上机成绩,满分 100 分）
+- 担任 `T-PAMI`，T-ITS，GRSL，PRCV 审稿人，并参与协助审稿 CVPR，ECCV，NIPS 论文
+- 于 CSDN 博客平台分享原创科技论文等文章 112 篇，内容获`12w+阅读量`，上千次点赞与收藏
 
 <span class='anchor' id='-gzsx'></span>
 
@@ -124,7 +127,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">College competition of Teamfight Tactics</div><img src='images/gaoxiao.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-金铲铲之战高校赛八强
+金铲铲之战`高校赛八强`
 
 </div>
 </div>
@@ -132,7 +135,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master Challenger in League of Legends</div><img src='images/lpl.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-英雄联盟艾欧尼亚超凡大师
+英雄联盟艾欧尼亚`超凡大师`
 
 </div>
 </div>
@@ -140,7 +143,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">The strongest King in Teamfight Tactics</div><img src='images/chanchan.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-金铲铲之战最强王者（千分王者，全服前400）
+金铲铲之战`最强王者`（千分王者，全服前400）
 
 </div>
 </div>
