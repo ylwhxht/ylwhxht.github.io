@@ -43,7 +43,7 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang. Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection. *AAAI*, 2024, 38 (3), 2409-2416. (CCF-A)  
+-	**AAAI2024 (CCF-A)** : `Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang. Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.   
 [[paper]](https://arxiv.org/abs/2402.18493) [[code]](https://github.com/ylwhxht/SRKD-DRET) 
 
 </div>
@@ -53,21 +53,23 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection. *AAAI*, 2025. (CCF-A)  
+- **AAAI2025 (CCF-A)** : 	`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 [[paper]](https://arxiv.org/abs/2408.03677) [[code]](https://github.com/ylwhxht/L4DR) 
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen. V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion. Submitted to CCF-A Conference.  
+- **Submitted to CCF-A Conference**	: `Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen. V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.   
 [[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/) 
 
 </div>
 </div>
 
+- Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15(20): 7362. (JCR:Q1; IF:3.748)  
+[[HTML]](https://dx.doi.org/10.3390/ma15207362) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[PDF]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
 
 
 <span class='anchor' id='-ryjx'></span>
