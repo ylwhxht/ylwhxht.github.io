@@ -132,7 +132,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master Challenger in League of Legends</div><img src='images/lpl.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master Challenger in League of Legends</div><img src='images/lol.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 英雄联盟艾欧尼亚`超凡大师`
