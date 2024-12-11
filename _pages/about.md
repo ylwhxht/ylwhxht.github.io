@@ -146,7 +146,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master Challenger in League of Legends</div><img src='images/lol.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-英雄联盟艾欧尼亚`超凡大师`
+英雄联盟艾欧尼亚单双排`超凡大师`
 
 </div>
 </div>
@@ -154,7 +154,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">The strongest King in Teamfight Tactics</div><img src='images/chanchan.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-金铲铲之战`最强王者`（千分王者，全服前400）
+金铲铲之战`最强王者`（千分，全服前400）
 
 </div>
 </div>
