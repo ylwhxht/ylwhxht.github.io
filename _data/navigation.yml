@@ -1,23 +1,23 @@
 # main links links
 main:
   - title: "简介"
-    url: "/ylwhxht/#about-me"
+    url: "/#about-me"
 
   - title: "学历"
-    url: "/ylwhxht/#-xl"
+    url: "/#-xl"
 
   - title: "科研成果"
-    url: "/ylwhxht/#-lwzl"
+    url: "/#-lwzl"
 
   - title: "竞赛奖项"
-    url: "/ylwhxht/#-jsjx"
+    url: "/#-jsjx"
 
   - title: "荣誉称号"
-    url: "/ylwhxht/#-rych"
+    url: "/#-rych"
 
 
   - title: "其他经历"
-    url: "/ylwhxht/#-qtjl"
+    url: "/#-qtjl"
 
   - title: "娱乐"
-    url: "/ylwhxht/#-yl"
+    url: "/#-yl"
