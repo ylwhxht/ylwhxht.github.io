@@ -43,7 +43,10 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	**AAAI2024 (CCF-A)** : `Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang. Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.   
+-	**AAAI2024 (CCF-A)** :  Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
+
+`Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang.
+
 [[paper]](https://arxiv.org/abs/2402.18493) [[code]](https://github.com/ylwhxht/SRKD-DRET) 
 
 </div>
@@ -53,7 +56,10 @@ My research areas mainly focus on:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **AAAI2025 (CCF-A)** : 	`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+- **AAAI2025 (CCF-A)** : 	L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+
+`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. 
+
 [[paper]](https://arxiv.org/abs/2408.03677) [[code]](https://github.com/ylwhxht/L4DR) 
 
 </div>
@@ -63,15 +69,19 @@ My research areas mainly focus on:
 <div class='paper-box-text' markdown="1">
 
 - **Submitted to CCF-A Conference**	: V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
-`Xun Huang`, Xun Huang, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
+
+`Xun Huang`, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
 
 [[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/) 
 
 </div>
 </div>
 
-- **AAAI2025 (CCF-A)** : Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
+- **CVPR2024 (CCF-A)** : Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
 
+- **CVPR2024 (CCF-A)** : Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection. 
+
+- **ECCV2024 (CCF-A)** : Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
 <span class='anchor' id='-ryjx'></span>
 
