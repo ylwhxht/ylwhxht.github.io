@@ -94,12 +94,17 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 </div>
 </div>
 
-- **CVPR2024** : Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
+- **CVPR2024** : Commonsense Prototype for Outdoor Unsupervised 3D Object Detection.
 
-- **CVPR2024** : Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection. 
+Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. 
 
-- **ECCV2024** : Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
+- **CVPR2024** : HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection.
 
+Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. 
+
+- **ECCV2024** : CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
+
+Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. 
 <span class='anchor' id='-jsjx'></span>
 
 
