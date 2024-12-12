@@ -37,9 +37,9 @@ My research areas mainly focus on:
 
 # 🎓 教育经历/Education
 
-- *2024.09 - 至今*    , <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="23pt"></a> [厦门大学](https://www.xmu.edu.cn/) 人工智能研究院, 福建厦门， 博士（硕博连读）
-- *2022.09 - 2024.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="23pt"></a> [厦门大学](https://www.xmu.edu.cn/) 信息学院      , 福建厦门， 硕士（推免）
-- *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="23pt"></a> [集美大学](https://www.jmu.edu.cn/) 计算机工程学院 , 福建厦门,  本科（GPA/综合排名均为1/116）
+- *2024.09 - 至今*$~~~~~$ , <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="23pt"></a> [厦门大学](https://www.xmu.edu.cn/) 人工智能研究院， 福建厦门， 博士（硕博连读）
+- *2022.09 - 2024.06*, <a href="https://www.xmu.edu.cn/"><img class="svg" src="/images/xmu.jpg" width="23pt"></a> [厦门大学](https://www.xmu.edu.cn/) 信息学院 $~~~~~~~~~~~$，  福建厦门， 硕士（推免）
+- *2018.09 - 2022.06*, <a href="https://www.jmu.edu.cn/"><img class="svg" src="/images/jmu.png" width="23pt"></a> [集美大学](https://www.jmu.edu.cn/) 计算机工程学院，  福建厦门，  本科（GPA/综合排名均为1/116）
 
 <span class='anchor' id='-lwzl'></span>
 
@@ -96,15 +96,15 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 
 - **CVPR2024** : Commonsense Prototype for Outdoor Unsupervised 3D Object Detection.
 
-Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. 
+$~~~~~~~$ Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. 
 
 - **CVPR2024** : HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection.
 
-Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. 
+$~~~~~~~$ Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. 
 
 - **ECCV2024** : CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
-Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. 
+$~~~~~~~$ Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. 
 <span class='anchor' id='-jsjx'></span>
 
 
