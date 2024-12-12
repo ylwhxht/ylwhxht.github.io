@@ -54,7 +54,7 @@ Published 2 `AAAI`, 2 `CVPR`, 1 `ECCV` papers. Among them, I have published 2 `A
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2024 (CCF-A)** 
+**AAAI2024** 
 
 Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
@@ -69,7 +69,7 @@ Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2025 (CCF-A)** 
+**AAAI2025** 
 
 L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
@@ -94,11 +94,11 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising 
 </div>
 </div>
 
-- **CVPR2024 (CCF-A)** : Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
+- **CVPR2024** : Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. Commonsense Prototype for Outdoor Unsupervised 3D Object Detection. 
 
-- **CVPR2024 (CCF-A)** : Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection. 
+- **CVPR2024** : Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection. 
 
-- **ECCV2024 (CCF-A)** : Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
+- **ECCV2024** : Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
 <span class='anchor' id='-jsjx'></span>
 
