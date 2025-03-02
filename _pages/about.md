@@ -69,7 +69,7 @@ Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2025** 
+**AAAI2025 Oral** 
 
 L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
@@ -83,7 +83,7 @@ L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Arxiv (Submitted to CCF-A Conference)**	
+**CVPR2025**
 
 V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
 
