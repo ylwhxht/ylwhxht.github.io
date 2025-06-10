@@ -45,9 +45,9 @@ My research areas mainly focus on:
 
 # 📝 科研成果/Research Achievements
 
-共发表2篇`AAAI`，2篇`CVPR`，1篇`ECCV`论文。其中以`第一作者`发表发表2篇`AAAI`.
+共发表4篇`CVPR`，2篇`AAAI`，1篇`ECCV`论文。其中以`第一作者`发表`AAAI2024`、`AAAI2025-Oral`、`CVPR2025`.
 
-Published 2 `AAAI`, 2 `CVPR`, 1 `ECCV` papers. Among them, I have published 2 `AAAI` papers as `first author`.
+Published 4 `CVPR`, 2 `AAAI`, 1 `ECCV` papers. Among them, I have published `AAAI2024`，`AAAI2025-Oral`,`CVPR2025` as `first author`.
 
 ---
 
