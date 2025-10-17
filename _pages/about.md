@@ -80,7 +80,7 @@ L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **CVPR2025**
@@ -163,4 +163,5 @@ $~~~~~~$ Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang,
 
 </div>
 </div>
+
 
