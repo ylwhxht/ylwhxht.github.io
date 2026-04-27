@@ -23,6 +23,8 @@
   }
 
   function applyStars(repoStars, allReposLoaded) {
+    var total = null;
+
     starNodes.forEach(function (node) {
       var repo = node.getAttribute("data-github-stars");
       var stars = repoStars[repo];
@@ -39,13 +41,15 @@
       return;
     }
 
-    var total = repos.reduce(function (sum, repo) {
+    total = repos.reduce(function (sum, repo) {
       return sum + repoStars[repo];
     }, 0);
 
     totalNodes.forEach(function (node) {
       node.textContent = formatNumber(total);
     });
+
+    return total;
   }
 
   Promise.all(repos.map(function (repo) {
@@ -85,6 +89,15 @@
       }
     });
 
-    applyStars(repoStars, allReposLoaded);
+    var total = applyStars(repoStars, allReposLoaded);
+
+    if (typeof window.CustomEvent === "function") {
+      window.dispatchEvent(new CustomEvent("hx-github-stars-updated", {
+        detail: {
+          repoStars: repoStars,
+          total: total
+        }
+      }));
+    }
   });
 }());

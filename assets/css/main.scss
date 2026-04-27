@@ -983,6 +983,200 @@ body:before {
     max-width: 92pt;
 }
 
+/* Interaction layer: reveal, cursor glow, hover scan, and subtle tilt */
+.hx-cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 999px;
+    pointer-events: none;
+    background:
+        radial-gradient(circle, rgba(53, 242, 208, 0.20), rgba(125, 211, 252, 0.08) 34%, rgba(139, 92, 246, 0.05) 52%, transparent 70%);
+    filter: blur(4px);
+    mix-blend-mode: screen;
+    opacity: 0;
+    transform: translate3d(var(--hx-cursor-x, -30rem), var(--hx-cursor-y, -30rem), 0) translate(-50%, -50%);
+    transition: opacity 0.18s ease;
+}
+
+body.hx-pointer-active .hx-cursor-glow {
+    opacity: 0.72;
+}
+
+.hx-interactive-ready .hx-reveal {
+    --hx-reveal-y: 20px;
+    opacity: 0;
+    transform: translate3d(0, var(--hx-reveal-y), 0);
+    transition:
+        opacity 0.7s ease var(--hx-reveal-delay, 0ms),
+        transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) var(--hx-reveal-delay, 0ms),
+        border-color 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+.hx-interactive-ready .hx-reveal.is-visible {
+    --hx-reveal-y: 0px;
+    opacity: 1;
+}
+
+.hx-interactive-ready .hx-tilt,
+.hx-interactive-ready .hx-tilt:hover,
+.hx-interactive-ready .paper-box.hx-tilt,
+.hx-interactive-ready .paper-box.hx-tilt:hover,
+.hx-interactive-ready .hx-metric-grid div.hx-tilt,
+.hx-interactive-ready .hx-metric-grid div.hx-tilt:hover {
+    --hx-lift: 0px;
+    --hx-scale: 1;
+    --hx-tilt-x: 0deg;
+    --hx-tilt-y: 0deg;
+    transform:
+        translate3d(0, calc(var(--hx-reveal-y, 0px) + var(--hx-lift)), 0)
+        perspective(1000px)
+        rotateX(var(--hx-tilt-x))
+        rotateY(var(--hx-tilt-y))
+        scale(var(--hx-scale));
+    transform-style: preserve-3d;
+}
+
+.hx-interactive-ready .hx-hero.hx-tilt:hover {
+    --hx-scale: 1.002;
+}
+
+.hx-interactive-ready .paper-box.hx-tilt:hover {
+    --hx-lift: -5px;
+    --hx-scale: 1.006;
+}
+
+.hx-interactive-ready .hx-metric-grid div.hx-tilt:hover {
+    --hx-lift: -4px;
+    --hx-scale: 1.015;
+}
+
+.hx-hero:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: linear-gradient(105deg, transparent 0%, transparent 38%, rgba(125, 211, 252, 0.16) 46%, rgba(53, 242, 208, 0.12) 50%, transparent 58%, transparent 100%);
+    opacity: 0.8;
+    transform: translateX(-120%);
+    animation: hx-light-sweep 6.5s ease-in-out infinite;
+}
+
+.paper-box:after {
+    content: "";
+    position: absolute;
+    inset: -35% -20%;
+    z-index: 0;
+    pointer-events: none;
+    background: linear-gradient(110deg, transparent 0%, transparent 42%, rgba(53, 242, 208, 0.18) 48%, rgba(247, 201, 72, 0.12) 52%, transparent 60%, transparent 100%);
+    opacity: 0;
+    transform: translateX(-60%) rotate(4deg);
+    transition: opacity 0.18s ease;
+}
+
+.paper-box:hover:after {
+    opacity: 1;
+    animation: hx-card-scan 1.1s ease;
+}
+
+.paper-box > *,
+.hx-metric-grid div > * {
+    position: relative;
+    z-index: 1;
+}
+
+.hx-metric-grid div:after {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    bottom: 0.78rem;
+    left: 1rem;
+    z-index: 0;
+    height: 2px;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--hx-cyan), var(--hx-blue), var(--hx-coral));
+    box-shadow: 0 0 16px rgba(53, 242, 208, 0.4);
+    transform: scaleX(0.28);
+    transform-origin: left;
+    transition: transform 0.24s ease;
+}
+
+.hx-metric-grid div:hover:after {
+    transform: scaleX(1);
+}
+
+.hx-focus-list li,
+.hx-first-author-strip span,
+.paper-stats span,
+.page__content a {
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+
+.hx-focus-list li:hover,
+.hx-first-author-strip span:hover,
+.paper-stats span:hover {
+    transform: translateY(-2px);
+    border-color: rgba(53, 242, 208, 0.40);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.22), 0 0 22px rgba(53, 242, 208, 0.13);
+}
+
+.paper-box-image img {
+    transition: filter 0.22s ease, transform 0.22s ease;
+}
+
+.paper-box:hover .paper-box-image img {
+    filter: saturate(1.32) contrast(1.08) brightness(1.04);
+    transform: scale(1.018);
+}
+
+@keyframes hx-light-sweep {
+    0%, 44% {
+        transform: translateX(-120%);
+    }
+    70%, 100% {
+        transform: translateX(120%);
+    }
+}
+
+@keyframes hx-card-scan {
+    from {
+        transform: translateX(-65%) rotate(4deg);
+    }
+    to {
+        transform: translateX(65%) rotate(4deg);
+    }
+}
+
+@media (pointer: coarse) {
+    .hx-cursor-glow {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hx-cursor-glow {
+        display: none;
+    }
+
+    .hx-interactive-ready .hx-reveal,
+    .hx-interactive-ready .hx-tilt {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .hx-hero:after,
+    .paper-box:after {
+        display: none;
+        animation: none;
+    }
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before {
     content: "";
