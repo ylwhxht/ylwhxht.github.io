@@ -29,15 +29,15 @@ redirect_from:
     <div class="hx-hero-copy">
       <p>你好呀😊。我是黄勋，目前博士就读于<a href="https://www.xmu.edu.cn/">厦门大学</a>，于<a href="http://bjzgca.bjedu.cn:81">北京中关村学院</a>联合培养，我的导师是<a href="https://informatics.xmu.edu.cn/info/1385/26639.htm">温程璐教授</a>与<a href="https://chwang.xmu.edu.cn/">王程教授</a>。</p>
       <ul class="hx-focus-list">
-        <li>恶劣天候鲁棒三维目标检测</li>
-        <li>协同/多模态三维感知</li>
         <li>具身智能与零样本导航</li>
+        <li>协同/多模态三维感知</li>
+        <li>鲁棒三维目标感知</li>
       </ul>
       <p>Hi 😊. I am Xun Huang, currently pursuing a PhD at <a href="https://www.xmu.edu.cn/">Xiamen University</a>, jointly trained at <a href="http://bjzgca.bjedu.cn:81">Zhongguancun Academy</a>. My supervisor is prof. <a href="https://informatics.xmu.edu.cn/info/1385/26639.htm">Chenglu Wen</a> and prof. <a href="https://chwang.xmu.edu.cn/">Cheng Wang</a>.</p>
       <ul class="hx-focus-list">
-        <li>Robust 3D object detection in adverse weather</li>
-        <li>Cooperative and multi-modal 3D perception</li>
         <li>Embodied AI and zero-shot navigation</li>
+        <li>Cooperative and multi-modal 3D perception</li>
+        <li>Robust 3D object perception</li>
       </ul>
     </div>
 
