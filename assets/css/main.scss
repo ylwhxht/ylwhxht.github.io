@@ -54,6 +54,8 @@
 }
 
 body {
+    position: relative;
+    min-height: 100vh;
     color: var(--hx-text);
     background-color: var(--hx-bg);
     background-image:
@@ -63,7 +65,32 @@ body {
     background-size: 34px 34px, 34px 34px, auto;
 }
 
+body:before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+        linear-gradient(115deg, transparent 0%, transparent 18%, rgba(32, 227, 194, 0.12) 28%, transparent 40%, transparent 100%),
+        linear-gradient(65deg, transparent 0%, transparent 54%, rgba(255, 92, 138, 0.11) 65%, transparent 76%, transparent 100%);
+    animation: hx-panels 14s ease-in-out infinite alternate;
+}
+
+@keyframes hx-panels {
+    from {
+        transform: translate3d(-2rem, -1rem, 0);
+        opacity: 0.72;
+    }
+    to {
+        transform: translate3d(2rem, 1rem, 0);
+        opacity: 1;
+    }
+}
+
 .masthead {
+    position: relative;
+    z-index: 2;
     border-bottom: 1px solid var(--hx-line);
     background: rgba(8, 10, 15, 0.86);
     backdrop-filter: blur(14px);
@@ -75,6 +102,8 @@ body {
 }
 
 #main {
+    position: relative;
+    z-index: 1;
     max-width: 1380px;
 }
 
@@ -82,11 +111,29 @@ body {
     color: var(--hx-text);
 
     h1 {
+        position: relative;
         margin-top: 1.9rem;
-        padding-bottom: 0.35rem;
-        border-bottom: 1px solid var(--hx-line);
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--hx-line);
+        border-radius: 8px;
         color: var(--hx-text);
+        background:
+            linear-gradient(90deg, rgba(32, 227, 194, 0.14), rgba(255, 176, 0, 0.08), transparent),
+            rgba(255, 255, 255, 0.035);
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
         letter-spacing: 0;
+    }
+
+    h1:after {
+        content: "";
+        position: absolute;
+        left: 1rem;
+        bottom: -1px;
+        width: 12rem;
+        max-width: 42%;
+        height: 2px;
+        background: linear-gradient(90deg, var(--hx-cyan), var(--hx-amber), var(--hx-coral));
+        box-shadow: 0 0 18px rgba(32, 227, 194, 0.55);
     }
 
     h2,
@@ -115,6 +162,41 @@ body {
         color: #111827;
         background: var(--hx-cyan);
     }
+
+    hr {
+        height: 1px;
+        border: 0;
+        background: linear-gradient(90deg, transparent, var(--hx-cyan), var(--hx-amber), transparent);
+        box-shadow: 0 0 20px rgba(32, 227, 194, 0.35);
+    }
+
+    > ul {
+        display: grid;
+        gap: 0.78rem;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    > ul > li {
+        position: relative;
+        padding: 0.85rem 1rem 0.85rem 1.2rem;
+        border: 1px solid var(--hx-line);
+        border-radius: 8px;
+        color: var(--hx-muted);
+        background: rgba(255, 255, 255, 0.052);
+        box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+    }
+
+    > ul > li:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.8rem;
+        bottom: 0.8rem;
+        width: 3px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--hx-cyan), var(--hx-amber));
+    }
 }
 
 .sidebar {
@@ -142,7 +224,8 @@ body {
     border-color: var(--hx-line);
 }
 
-.hx-landing {
+.hx-landing,
+.hx-hero {
     position: relative;
     overflow: hidden;
     margin: 0 0 2rem;
@@ -151,8 +234,9 @@ body {
     border-radius: 8px;
     background:
         linear-gradient(135deg, rgba(17, 24, 39, 0.96), rgba(26, 18, 24, 0.86)),
-        repeating-linear-gradient(135deg, rgba(32, 227, 194, 0.08) 0 1px, transparent 1px 14px);
-    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.34);
+        repeating-linear-gradient(135deg, rgba(32, 227, 194, 0.08) 0, rgba(32, 227, 194, 0.08) 1px, transparent 1px, transparent 14px),
+        repeating-linear-gradient(90deg, rgba(255, 176, 0, 0.055) 0, rgba(255, 176, 0, 0.055) 1px, transparent 1px, transparent 22px);
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.34), inset 0 0 0 1px rgba(255, 255, 255, 0.035);
 
     &:before {
         content: "";
@@ -163,6 +247,16 @@ body {
             linear-gradient(90deg, rgba(32, 227, 194, 0.18), transparent 34%),
             linear-gradient(180deg, transparent, rgba(255, 176, 0, 0.10));
         mix-blend-mode: screen;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.08) 50%, transparent 100%);
+        transform: translateY(-100%);
+        animation: hx-scan 5.5s ease-in-out infinite;
     }
 
     > * {
@@ -182,15 +276,32 @@ body {
     }
 }
 
+@keyframes hx-scan {
+    0%, 30% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    48% {
+        opacity: 0.7;
+    }
+    70%, 100% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
 .hx-eyebrow,
-.hx-titleline {
+.hx-titleline,
+.hx-hero-kicker {
     color: var(--hx-muted);
     font-weight: 800;
     letter-spacing: 0;
 }
 
-.hx-eyebrow {
+.hx-eyebrow,
+.hx-hero-kicker {
     display: inline-flex;
+    margin-bottom: 0.7rem;
     padding: 0.38rem 0.68rem;
     border: 1px solid rgba(32, 227, 194, 0.32);
     border-radius: 999px;
@@ -211,7 +322,8 @@ body {
 .hx-venue-strip,
 .hx-focus-grid,
 .paper-stats,
-.hx-chip-cloud {
+.hx-chip-cloud,
+.hx-first-author-strip {
     display: flex;
     flex-wrap: wrap;
     gap: 0.52rem;
@@ -222,7 +334,9 @@ body {
 .hx-venue-strip span,
 .hx-focus-grid span,
 .paper-stats span,
-.hx-chip-cloud span {
+.hx-chip-cloud span,
+.hx-first-author-strip span,
+.hx-first-author-strip strong {
     display: inline-flex;
     align-items: center;
     min-height: 2rem;
@@ -234,6 +348,16 @@ body {
     font-size: 0.78rem;
     font-weight: 800;
     line-height: 1.15;
+}
+
+.hx-first-author-strip {
+    margin-top: 1rem;
+}
+
+.hx-first-author-strip strong {
+    border-color: rgba(255, 176, 0, 0.38);
+    color: #111827;
+    background: linear-gradient(90deg, var(--hx-amber), var(--hx-cyan));
 }
 
 .hx-linkbar a:hover,
@@ -260,6 +384,8 @@ body {
     margin-top: 1.25rem;
 
     div {
+        position: relative;
+        overflow: hidden;
         min-height: 6.4rem;
         padding: 1rem;
         border: 1px solid var(--hx-line);
@@ -267,7 +393,16 @@ body {
         background: rgba(255, 255, 255, 0.065);
     }
 
+    div:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, rgba(32, 227, 194, 0.20), transparent 42%, rgba(255, 92, 138, 0.12));
+        opacity: 0.42;
+    }
+
     span {
+        position: relative;
         display: block;
         color: var(--hx-text);
         font-size: 2.05rem;
@@ -276,6 +411,7 @@ body {
     }
 
     small {
+        position: relative;
         display: block;
         margin-top: 0.5rem;
         color: var(--hx-muted);
@@ -301,6 +437,8 @@ body {
 }
 
 .paper-box {
+    position: relative;
+    overflow: hidden;
     display: grid;
     gap: 1rem;
     margin: 1rem 0;
@@ -311,10 +449,30 @@ body {
     box-shadow: 0 22px 60px rgba(0, 0, 0, 0.28);
     transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 
+    &:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+            linear-gradient(120deg, rgba(32, 227, 194, 0.16), transparent 28%),
+            linear-gradient(300deg, rgba(255, 92, 138, 0.12), transparent 30%);
+        opacity: 0;
+        transition: opacity 0.18s ease;
+    }
+
     &:hover {
         transform: translateY(-3px);
         border-color: rgba(32, 227, 194, 0.45);
         box-shadow: 0 28px 80px rgba(0, 0, 0, 0.38);
+    }
+
+    &:hover:before {
+        opacity: 1;
+    }
+
+    > * {
+        position: relative;
     }
 
     @include breakpoint($medium) {
@@ -340,6 +498,13 @@ body {
 }
 
 .paper-box-text {
+    strong:first-child {
+        display: inline-block;
+        margin-bottom: 0.35rem;
+        color: var(--hx-amber);
+        font-size: 1.08rem;
+    }
+
     h3 {
         margin: 0 0 0.45rem;
         font-size: 1.45rem;
@@ -385,6 +550,13 @@ body {
 .hx-game-grid {
     display: grid;
     gap: 0.85rem;
+}
+
+.footer_site {
+    position: relative;
+    z-index: 1;
+    color: var(--hx-muted);
+    background: rgba(8, 10, 15, 0.86);
 }
 
 .hx-paper-list {
