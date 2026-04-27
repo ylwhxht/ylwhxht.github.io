@@ -45,15 +45,15 @@ redirect_from:
       <div class="hx-metric-grid">
         <div><span>12</span><small>Formal Publications</small></div>
         <div><span>247</span><small>Total Citations</small></div>
-        <div><span>317</span><small>First-author GitHub Stars</small></div>
+        <div><span data-github-star-total>317</span><small>First-author GitHub Stars</small></div>
         <div><span>4</span><small>First-author Top-tier Papers</small></div>
       </div>
       <div class="hx-first-author-strip">
         <strong>First-author highlights</strong>
-        <span>MSGNav: 3 citations · 46 stars</span>
-        <span>V2X-R: 47 citations · 156 stars</span>
-        <span>L4DR: 49 citations · 70 stars</span>
-        <span>Sunshine to Rainstorm: 36 citations · 45 stars</span>
+        <span data-github-stars="ylwhxht/MSGNav" data-star-label="MSGNav: 3 citations · {stars} stars">MSGNav: 3 citations · 46 stars</span>
+        <span data-github-stars="ylwhxht/V2X-R" data-star-label="V2X-R: 47 citations · {stars} stars">V2X-R: 47 citations · 156 stars</span>
+        <span data-github-stars="ylwhxht/L4DR" data-star-label="L4DR: 49 citations · {stars} stars">L4DR: 49 citations · 70 stars</span>
+        <span data-github-stars="ylwhxht/SRKD-DRET" data-star-label="Sunshine to Rainstorm: 36 citations · {stars} stars">Sunshine to Rainstorm: 36 citations · 45 stars</span>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ As of 2026.04, Google Scholar lists 12 formal research works with 247 citations,
 
 **CVPR2026**
 
-<div class="paper-stats"><span>First Author</span><span>3 Citations</span><span>46 GitHub Stars</span></div>
+<div class="paper-stats"><span>First Author</span><span>3 Citations</span><span data-github-stars="ylwhxht/MSGNav" data-star-label="{stars} GitHub Stars">46 GitHub Stars</span></div>
 
 MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation.
 
@@ -99,7 +99,7 @@ MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodie
 
 **CVPR2025**
 
-<div class="paper-stats"><span>First Author</span><span>47 Citations</span><span>156 GitHub Stars</span></div>
+<div class="paper-stats"><span>First Author</span><span>47 Citations</span><span data-github-stars="ylwhxht/V2X-R" data-star-label="{stars} GitHub Stars">156 GitHub Stars</span></div>
 
 V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object Detection.
 
@@ -115,7 +115,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object 
 
 **AAAI2025 Oral**
 
-<div class="paper-stats"><span>First Author</span><span>49 Citations</span><span>70 GitHub Stars</span></div>
+<div class="paper-stats"><span>First Author</span><span>49 Citations</span><span data-github-stars="ylwhxht/L4DR" data-star-label="{stars} GitHub Stars">70 GitHub Stars</span></div>
 
 L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
@@ -131,7 +131,7 @@ L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
 **AAAI2024**
 
-<div class="paper-stats"><span>First Author</span><span>36 Citations</span><span>45 GitHub Stars</span></div>
+<div class="paper-stats"><span>First Author</span><span>36 Citations</span><span data-github-stars="ylwhxht/SRKD-DRET" data-star-label="{stars} GitHub Stars">45 GitHub Stars</span></div>
 
 Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
