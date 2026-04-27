@@ -45,7 +45,7 @@ redirect_from:
       <div class="hx-metric-grid">
         <div><span>12</span><small>Formal Publications</small></div>
         <div><span>247</span><small>Total Citations</small></div>
-        <div><span data-github-star-total>317</span><small>First-author GitHub Stars</small></div>
+        <div><span data-github-star-total data-github-user-stars="ylwhxht">399</span><small>Total GitHub Stars</small></div>
         <div><span>4</span><small>First-author Top-tier Papers</small></div>
       </div>
       <div class="hx-first-author-strip">

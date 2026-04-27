@@ -7,13 +7,14 @@
   }
 
   var repos = [];
-  var seen = {};
+  var seenRepos = {};
+  var totalUser = totalNodes.length ? totalNodes[0].getAttribute("data-github-user-stars") : null;
 
   starNodes.forEach(function (node) {
     var repo = node.getAttribute("data-github-stars");
 
-    if (repo && !seen[repo]) {
-      seen[repo] = true;
+    if (repo && !seenRepos[repo]) {
+      seenRepos[repo] = true;
       repos.push(repo);
     }
   });
@@ -22,9 +23,57 @@
     return Number(value).toLocaleString("en-US");
   }
 
-  function applyStars(repoStars, allReposLoaded) {
-    var total = null;
+  function fetchJson(url) {
+    return fetch(url).then(function (response) {
+      if (!response.ok) {
+        throw new Error("GitHub API returned " + response.status + " for " + url);
+      }
 
+      return response.json();
+    });
+  }
+
+  function fetchRepoStars(repo) {
+    return fetchJson("https://api.github.com/repos/" + repo)
+      .then(function (data) {
+        return {
+          repo: repo,
+          stars: data.stargazers_count
+        };
+      })
+      .catch(function (error) {
+        warn(error);
+
+        return {
+          repo: repo,
+          stars: null
+        };
+      });
+  }
+
+  function fetchUserStarTotal(user, page, total) {
+    var url = "https://api.github.com/users/" + user + "/repos?per_page=100&type=owner&page=" + page;
+
+    return fetchJson(url).then(function (repoPage) {
+      var pageTotal = repoPage.reduce(function (sum, repo) {
+        return sum + (repo.stargazers_count || 0);
+      }, total);
+
+      if (repoPage.length === 100) {
+        return fetchUserStarTotal(user, page + 1, pageTotal);
+      }
+
+      return pageTotal;
+    });
+  }
+
+  function warn(error) {
+    if (window.console && window.console.warn) {
+      window.console.warn(error);
+    }
+  }
+
+  function applyRepoStars(repoStars) {
     starNodes.forEach(function (node) {
       var repo = node.getAttribute("data-github-stars");
       var stars = repoStars[repo];
@@ -36,68 +85,54 @@
       var template = node.getAttribute("data-star-label") || "{stars} stars";
       node.textContent = template.replace("{stars}", formatNumber(stars));
     });
+  }
 
-    if (!allReposLoaded) {
+  function applyTotalStars(total) {
+    if (typeof total !== "number") {
       return;
     }
-
-    total = repos.reduce(function (sum, repo) {
-      return sum + repoStars[repo];
-    }, 0);
 
     totalNodes.forEach(function (node) {
       node.textContent = formatNumber(total);
     });
-
-    return total;
   }
 
-  Promise.all(repos.map(function (repo) {
-    return fetch("https://api.github.com/repos/" + repo)
-      .then(function (response) {
-        if (!response.ok) {
-          throw new Error("GitHub API returned " + response.status + " for " + repo);
-        }
+  function emitUpdated(repoStars, total) {
+    if (typeof window.CustomEvent !== "function") {
+      return;
+    }
 
-        return response.json();
-      })
-      .then(function (data) {
-        return {
-          repo: repo,
-          stars: data.stargazers_count
-        };
-      })
-      .catch(function (error) {
-        if (window.console && window.console.warn) {
-          window.console.warn(error);
-        }
+    window.dispatchEvent(new CustomEvent("hx-github-stars-updated", {
+      detail: {
+        repoStars: repoStars,
+        total: total
+      }
+    }));
+  }
 
-        return {
-          repo: repo,
-          stars: null
-        };
-      });
-  })).then(function (results) {
+  var repoStarsPromise = Promise.all(repos.map(fetchRepoStars)).then(function (results) {
     var repoStars = {};
-    var allReposLoaded = true;
 
     results.forEach(function (result) {
       if (typeof result.stars === "number") {
         repoStars[result.repo] = result.stars;
-      } else {
-        allReposLoaded = false;
       }
     });
 
-    var total = applyStars(repoStars, allReposLoaded);
+    return repoStars;
+  });
 
-    if (typeof window.CustomEvent === "function") {
-      window.dispatchEvent(new CustomEvent("hx-github-stars-updated", {
-        detail: {
-          repoStars: repoStars,
-          total: total
-        }
-      }));
-    }
+  var totalStarsPromise = totalUser ? fetchUserStarTotal(totalUser, 1, 0).catch(function (error) {
+    warn(error);
+    return null;
+  }) : Promise.resolve(null);
+
+  Promise.all([repoStarsPromise, totalStarsPromise]).then(function (results) {
+    var repoStars = results[0];
+    var total = results[1];
+
+    applyRepoStars(repoStars);
+    applyTotalStars(total);
+    emitUpdated(repoStars, total);
   });
 }());
