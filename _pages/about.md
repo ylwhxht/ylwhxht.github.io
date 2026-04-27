@@ -15,6 +15,10 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div class="hx-hero" markdown="1">
+
+<div class="hx-hero-kicker">3D Vision · Embodied AI · Cooperative Perception</div>
+
 # 🧑‍🎓 个人简介/Introduction
 <span class='anchor' id='about-me'></span>
 你好呀😊。我是黄勋，目前博士就读于[厦门大学](https://www.xmu.edu.cn/)，于[北京中关村学院](http://bjzgca.bjedu.cn:81)联合培养，我的导师是[温程璐教授](https://informatics.xmu.edu.cn/info/1385/26639.htm)与[王程教授](https://chwang.xmu.edu.cn/)。
@@ -34,6 +38,23 @@ My research areas mainly focus on:
 - Robust 3D object detection in adverse weather
 - Cooperative and multi-modal 3D perception
 - Embodied AI and zero-shot navigation
+
+<div class="hx-metric-grid">
+  <div><span>13</span><small>Google Scholar Works</small></div>
+  <div><span>247</span><small>Total Citations</small></div>
+  <div><span>317</span><small>First-author GitHub Stars</small></div>
+  <div><span>4</span><small>First-author Top-tier Papers</small></div>
+</div>
+
+<div class="hx-first-author-strip">
+  <strong>First-author highlights</strong>
+  <span>MSGNav: 3 citations · 46 stars</span>
+  <span>V2X-R: 47 citations · 156 stars</span>
+  <span>L4DR: 49 citations · 70 stars</span>
+  <span>Sunshine to Rainstorm: 36 citations · 45 stars</span>
+</div>
+
+</div>
 
 <span class='anchor' id='-xl'></span>
 
@@ -58,6 +79,8 @@ As of 2026.04, Google Scholar lists 13 research works with 247 citations, includ
 
 **CVPR2026**
 
+<div class="paper-stats"><span>First Author</span><span>3 Citations</span><span>46 GitHub Stars</span></div>
+
 MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation.
 
 `Xun Huang`, Shijia Zhao, Yunxiang Wang, Xin Lu, Wanfa Zhang, Rongsheng Qu, Weixin Li, Yunhong Wang, Chenglu Wen.
@@ -71,6 +94,8 @@ MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodie
 <div class='paper-box-text' markdown="1">
 
 **CVPR2025**
+
+<div class="paper-stats"><span>First Author</span><span>47 Citations</span><span>156 GitHub Stars</span></div>
 
 V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object Detection.
 
@@ -86,6 +111,8 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object 
 
 **AAAI2025 Oral**
 
+<div class="paper-stats"><span>First Author</span><span>49 Citations</span><span>70 GitHub Stars</span></div>
+
 L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 
 `Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang.
@@ -99,6 +126,8 @@ L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 <div class='paper-box-text' markdown="1">
 
 **AAAI2024**
+
+<div class="paper-stats"><span>First Author</span><span>36 Citations</span><span>45 GitHub Stars</span></div>
 
 Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
