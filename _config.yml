@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "黄勋"
-description              : "计算机视觉-场景感知"
+description              : "3D Vision / Embodied AI"
 repository               : "ylwhxht/ylwhxht.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -43,7 +43,7 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  dblp             : "https://dblp.org/pid/121/2459-3.html"
   orcid            : "https://orcid.org/0009-0007-5343-7811"
   pinterest        :
   soundcloud       :

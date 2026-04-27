@@ -21,7 +21,8 @@ redirect_from:
 
 我的研究领域主要包括：
 - 恶劣天候鲁棒三维目标检测
-- 主动具身感知
+- 协同/多模态三维感知
+- 具身智能与零样本导航
 
 ---
 
@@ -31,7 +32,8 @@ Hi 😊. I am Xun Huang, currently pursuing a PhD at [Xiamen University](https:/
 
 My research areas mainly focus on:
 - Robust 3D object detection in adverse weather
-- Active embodied perception
+- Cooperative and multi-modal 3D perception
+- Embodied AI and zero-shot navigation
 
 <span class='anchor' id='-xl'></span>
 
@@ -45,66 +47,103 @@ My research areas mainly focus on:
 
 # 📝 科研成果/Research Achievements
 
-共发表4篇`CVPR`，2篇`AAAI`，1篇`ECCV`论文。其中以`第一作者`发表`AAAI2024`、`AAAI2025-Oral`、`CVPR2025`.
+截至 2026.04，Google Scholar 收录 13 项科研成果，累计引用 247 次。其中包括 5 篇`CVPR`，3 篇`AAAI`，1 篇`ECCV`，2 篇`TPAMI`，1 篇`Information Fusion`论文，以及 1 篇`arXiv`预印本。以`第一作者`发表`AAAI2024`、`AAAI2025-Oral`、`CVPR2025`、`CVPR2026`。
 
-Published 4 `CVPR`, 2 `AAAI`, 1 `ECCV` papers. Among them, I have published `AAAI2024`，`AAAI2025-Oral`,`CVPR2025` as `first author`.
+As of 2026.04, Google Scholar lists 13 research works with 247 citations, including 5 `CVPR`, 3 `AAAI`, 1 `ECCV`, 2 `TPAMI`, 1 `Information Fusion` papers, and 1 `arXiv` preprint. Among them, I have published `AAAI2024`, `AAAI2025-Oral`, `CVPR2025`, and `CVPR2026` as `first author`.
 
 ---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR - 2026</div><img src='images/msgnav.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CVPR2026**
+
+MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation.
+
+`Xun Huang`, Shijia Zhao, Yunxiang Wang, Xin Lu, Wanfa Zhang, Rongsheng Qu, Weixin Li, Yunhong Wang, Chenglu Wen.
+
+[[paper]](https://arxiv.org/abs/2511.10376) [[code]](https://github.com/ylwhxht/MSGNav)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR - 2025</div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CVPR2025**
+
+V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object Detection.
+
+`Xun Huang`, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Xin Li, Cheng Wang, Chenglu Wen.
+
+[[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**AAAI2025 Oral**
+
+L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+
+`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang.
+
+[[paper]](https://arxiv.org/abs/2408.03677) [[code]](https://github.com/ylwhxht/L4DR)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2024** 
+**AAAI2024**
 
 Sunshine to Rainstorm: Cross-Weather Knowledge Distillation for Robust 3D Object Detection.
 
 `Xun Huang`, Hai Wu, Xin Li, Xiaoliang Fan, Chenglu Wen, Cheng Wang.
 
-[[paper]](https://arxiv.org/abs/2402.18493) [[code]](https://github.com/ylwhxht/SRKD-DRET) 
+[[paper]](https://arxiv.org/abs/2402.18493) [[code]](https://github.com/ylwhxht/SRKD-DRET)
 
 </div>
 </div>
 
+- **TPAMI2026** : DOtA++: Unsupervisely and Collaboratively Detect Objects From Multi-Agent Observations With Multi-Modal Prior Constraints.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+$~~~~~~$ Qiming Xia, Longhui Zheng, Shijia Zhao, `Xun Huang`, Hai Wu, Chenglu Wen, Cheng Wang. [[paper]](https://doi.org/10.1109/TPAMI.2026.3664863)
 
-**AAAI2025 Oral** 
+- **Information Fusion 2026** : FusionBev: LiDAR and 4D Radar Fusion for 3D Object Detection.
 
-L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
+$~~~~~~$ Yuanfan Qi, Chun Liu, Hai Wu, Ruijie Chen, Chenglu Wen, `Xun Huang`, Shoujun Jia, Keke Zhang. [[paper]](https://doi.org/10.1016/j.inffus.2026.104240)
 
-`Xun Huang`, Ziyu Xu, Hai Wu, Jinlong Wang, Qiming Xia, Yan Xia, Jonathan Li, Kyle Gao, Chenglu Wen, Cheng Wang. 
+- **arXiv2026** : Memory-Guided View Refinement for Dynamic Human-in-the-loop EQA.
 
-[[paper]](https://arxiv.org/abs/2408.03677) [[code]](https://github.com/ylwhxht/L4DR) 
+$~~~~~~$ Xin Lu, Rui Li, `Xun Huang`, Weixin Li, Chuanqing Zhuang, Jiayuan Li, Zhengda Lu, Jun Xiao, Yunhong Wang. [[paper]](https://arxiv.org/abs/2603.09541)
 
-</div>
-</div>
+- **AAAI2026** : V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 </div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+$~~~~~~$ Wenkai Lin, Qiming Xia, Wen Li, `Xun Huang`, Chenglu Wen. [[paper]](https://arxiv.org/abs/2511.14247)
 
-**CVPR2025**
+- **TPAMI2025** : Unsupervised 3D Object Detection by Commonsense Clue.
 
-V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion.
+$~~~~~~$ Hai Wu, Shijia Zhao, `Xun Huang`, Qiming Xia, Chenglu Wen, Li Jiang, Xin Li, Cheng Wang. [[paper]](https://doi.org/10.1109/TPAMI.2025.3598341)
 
-`Xun Huang`, Jinlong Wang, Qiming Xia, Siheng Chen, Bisheng Yang, Cheng Wang, Chenglu Wen.
+- **CVPR2025** : Learning to Detect Objects from Multi-Agent LiDAR Scans without Manual Labels.
 
-[[paper]](https://arxiv.org/abs/2411.08402) [[code]](https://github.com/ylwhxht/V2X-R) [[dataset]](http://39.98.109.195:1000/) 
-
-</div>
-</div>
+$~~~~~~$ Qiming Xia, Wenkai Lin, Haoen Xiang, `Xun Huang`, Siheng Chen, Zhen Dong, Cheng Wang, Chenglu Wen. [[paper]](https://arxiv.org/abs/2503.08421) [[code]](https://github.com/xmuqimingxia/DOtA)
 
 - **CVPR2024** : Commonsense Prototype for Outdoor Unsupervised 3D Object Detection.
 
-$~~~~~~$ Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. 
+$~~~~~~$ Hai Wu, Shijia Zhao, `Xun Huang`, Chenglu Wen, Xin Li, Cheng Wang. [[paper]](https://arxiv.org/abs/2404.16493) [[code]](https://github.com/hailanyi/CPD)
 
 - **CVPR2024** : HINTED: Hard Instance Enhanced Detector with Mixed-Density Feature Fusion for Sparsely-Supervised 3D Object Detection.
 
-$~~~~~~$ Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. 
+$~~~~~~$ Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinhao Deng, Xin Li, Chenglu Wen, Cheng Wang. [[paper]](https://doi.org/10.1109/CVPR52733.2024.01451)
 
 - **ECCV2024** : CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
-$~~~~~~$ Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. 
+$~~~~~~$ Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. [[paper]](https://doi.org/10.1007/978-3-031-72998-0_13) [[code]](https://github.com/im-djh/CMD)
 <span class='anchor' id='-jsjx'></span>
 
 
