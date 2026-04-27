@@ -969,6 +969,20 @@ body:before {
     background: linear-gradient(90deg, var(--hx-cyan), var(--hx-blue));
 }
 
+.page__content img.edu-logo {
+    display: inline-block;
+    width: auto !important;
+    max-width: none;
+    height: 23pt !important;
+    margin: 0 0.2rem;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.page__content img.edu-logo--wide {
+    max-width: 92pt;
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before {
     content: "";
