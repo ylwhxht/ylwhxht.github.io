@@ -15,45 +15,48 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div class="hx-hero" markdown="1">
+<div class="hx-hero">
+  <span class='anchor' id='about-me'></span>
+  <div class="hx-hero-top">
+    <div>
+      <div class="hx-hero-kicker">3D Vision · Embodied AI · Cooperative Perception</div>
+      <h1><span>个人简介</span><small>Introduction</small></h1>
+    </div>
+    <div class="hx-hero-tag">PhD @ Xiamen University</div>
+  </div>
 
-<div class="hx-hero-kicker">3D Vision · Embodied AI · Cooperative Perception</div>
+  <div class="hx-hero-body">
+    <div class="hx-hero-copy">
+      <p>你好呀😊。我是黄勋，目前博士就读于<a href="https://www.xmu.edu.cn/">厦门大学</a>，于<a href="http://bjzgca.bjedu.cn:81">北京中关村学院</a>联合培养，我的导师是<a href="https://informatics.xmu.edu.cn/info/1385/26639.htm">温程璐教授</a>与<a href="https://chwang.xmu.edu.cn/">王程教授</a>。</p>
+      <ul class="hx-focus-list">
+        <li>恶劣天候鲁棒三维目标检测</li>
+        <li>协同/多模态三维感知</li>
+        <li>具身智能与零样本导航</li>
+      </ul>
+      <p>Hi 😊. I am Xun Huang, currently pursuing a PhD at <a href="https://www.xmu.edu.cn/">Xiamen University</a>, jointly trained at <a href="http://bjzgca.bjedu.cn:81">Zhongguancun Academy</a>. My supervisor is prof. <a href="https://informatics.xmu.edu.cn/info/1385/26639.htm">Chenglu Wen</a> and prof. <a href="https://chwang.xmu.edu.cn/">Cheng Wang</a>.</p>
+      <ul class="hx-focus-list">
+        <li>Robust 3D object detection in adverse weather</li>
+        <li>Cooperative and multi-modal 3D perception</li>
+        <li>Embodied AI and zero-shot navigation</li>
+      </ul>
+    </div>
 
-# 🧑‍🎓 个人简介/Introduction
-<span class='anchor' id='about-me'></span>
-你好呀😊。我是黄勋，目前博士就读于[厦门大学](https://www.xmu.edu.cn/)，于[北京中关村学院](http://bjzgca.bjedu.cn:81)联合培养，我的导师是[温程璐教授](https://informatics.xmu.edu.cn/info/1385/26639.htm)与[王程教授](https://chwang.xmu.edu.cn/)。
-
-我的研究领域主要包括：
-- 恶劣天候鲁棒三维目标检测
-- 协同/多模态三维感知
-- 具身智能与零样本导航
-
----
-
-Hi 😊. I am Xun Huang, currently pursuing a PhD at [Xiamen University](https://www.xmu.edu.cn/), jointly trained at [Zhongguancun Academy](http://bjzgca.bjedu.cn:81). My supervisor is prof. [Chenglu Wen](https://informatics.xmu.edu.cn/info/1385/26639.htm) and prof. [Cheng Wang](https://chwang.xmu.edu.cn/).
-
-
-
-My research areas mainly focus on:
-- Robust 3D object detection in adverse weather
-- Cooperative and multi-modal 3D perception
-- Embodied AI and zero-shot navigation
-
-<div class="hx-metric-grid">
-  <div><span>12</span><small>Formal Publications</small></div>
-  <div><span>247</span><small>Total Citations</small></div>
-  <div><span>317</span><small>First-author GitHub Stars</small></div>
-  <div><span>4</span><small>First-author Top-tier Papers</small></div>
-</div>
-
-<div class="hx-first-author-strip">
-  <strong>First-author highlights</strong>
-  <span>MSGNav: 3 citations · 46 stars</span>
-  <span>V2X-R: 47 citations · 156 stars</span>
-  <span>L4DR: 49 citations · 70 stars</span>
-  <span>Sunshine to Rainstorm: 36 citations · 45 stars</span>
-</div>
-
+    <div class="hx-hero-panel">
+      <div class="hx-metric-grid">
+        <div><span>12</span><small>Formal Publications</small></div>
+        <div><span>247</span><small>Total Citations</small></div>
+        <div><span>317</span><small>First-author GitHub Stars</small></div>
+        <div><span>4</span><small>First-author Top-tier Papers</small></div>
+      </div>
+      <div class="hx-first-author-strip">
+        <strong>First-author highlights</strong>
+        <span>MSGNav: 3 citations · 46 stars</span>
+        <span>V2X-R: 47 citations · 156 stars</span>
+        <span>L4DR: 49 citations · 70 stars</span>
+        <span>Sunshine to Rainstorm: 36 citations · 45 stars</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <span class='anchor' id='-xl'></span>
