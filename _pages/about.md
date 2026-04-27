@@ -81,7 +81,7 @@ As of 2026.04, Google Scholar lists 12 formal research works with 247 citations,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR - 2026</div><img src='images/msgnav.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**CVPR2026**
+**具身导航与空间感知**
 
 <div class="paper-stats"><span>First Author</span><span>3 Citations</span><span data-github-stars="ylwhxht/MSGNav" data-star-label="{stars} GitHub Stars">46 GitHub Stars</span></div>
 
@@ -97,7 +97,7 @@ MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodie
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR - 2025</div><img src='images/v2xr_f.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**CVPR2025**
+**协同多模态三维感知**
 
 <div class="paper-stats"><span>First Author</span><span>47 Citations</span><span data-github-stars="ylwhxht/V2X-R" data-star-label="{stars} GitHub Stars">156 GitHub Stars</span></div>
 
@@ -113,7 +113,7 @@ V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2025</div><img src='images/l4dr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2025 Oral**
+**鲁棒三维目标感知**
 
 <div class="paper-stats"><span>First Author</span><span>49 Citations</span><span data-github-stars="ylwhxht/L4DR" data-star-label="{stars} GitHub Stars">70 GitHub Stars</span></div>
 
@@ -129,7 +129,7 @@ L4DR: LiDAR-4DRadar Fusion for Weather-Robust 3D Object Detection.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI - 2024</div><img src='images/srkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**AAAI2024**
+**跨天气鲁棒三维感知**
 
 <div class="paper-stats"><span>First Author</span><span>36 Citations</span><span data-github-stars="ylwhxht/SRKD-DRET" data-star-label="{stars} GitHub Stars">45 GitHub Stars</span></div>
 
