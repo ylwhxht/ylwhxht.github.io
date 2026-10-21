@@ -43,17 +43,17 @@ redirect_from:
 
     <div class="hx-hero-panel">
       <div class="hx-metric-grid">
-        <div><span>12</span><small>Formal Publications</small></div>
-        <div><span>247</span><small>Total Citations</small></div>
-        <div><span data-github-star-total data-github-user-stars="ylwhxht">399</span><small>Total GitHub Stars</small></div>
+        <div><span>13</span><small>Formal Publications</small></div>
+        <div><span>439</span><small>Total Citations</small></div>
+        <div><span data-github-star-total data-github-user-stars="ylwhxht">490</span><small>Total GitHub Stars</small></div>
         <div><span>4</span><small>First-author Top-tier Papers</small></div>
       </div>
       <div class="hx-first-author-strip">
         <strong>First-author highlights</strong>
-        <span data-github-stars="ylwhxht/MSGNav" data-star-label="MSGNav: 3 citations · {stars} stars">MSGNav: 3 citations · 46 stars</span>
-        <span data-github-stars="ylwhxht/V2X-R" data-star-label="V2X-R: 47 citations · {stars} stars">V2X-R: 47 citations · 156 stars</span>
-        <span data-github-stars="ylwhxht/L4DR" data-star-label="L4DR: 49 citations · {stars} stars">L4DR: 49 citations · 70 stars</span>
-        <span data-github-stars="ylwhxht/SRKD-DRET" data-star-label="Sunshine to Rainstorm: 36 citations · {stars} stars">Sunshine to Rainstorm: 36 citations · 45 stars</span>
+        <span data-github-stars="ylwhxht/MSGNav" data-star-label="MSGNav: 25 citations · {stars} stars">MSGNav: 25 citations · 80 stars</span>
+        <span data-github-stars="ylwhxht/V2X-R" data-star-label="V2X-R: 93 citations · {stars} stars">V2X-R: 93 citations · 165 stars</span>
+        <span data-github-stars="ylwhxht/L4DR" data-star-label="L4DR: 104 citations · {stars} stars">L4DR: 104 citations · 83 stars</span>
+        <span data-github-stars="ylwhxht/SRKD-DRET" data-star-label="Sunshine to Rainstorm: 51 citations · {stars} stars">Sunshine to Rainstorm: 51 citations · 48 stars</span>
       </div>
     </div>
   </div>
@@ -72,9 +72,21 @@ redirect_from:
 
 # 📝 科研成果/Research Achievements
 
-截至 2026.04，Google Scholar 收录 12 项正式科研成果，累计引用 247 次。其中包括 5 篇`CVPR`，3 篇`AAAI`，1 篇`ECCV`，2 篇`TPAMI`，1 篇`Information Fusion`论文。以`第一作者`发表`AAAI2024`、`AAAI2025-Oral`、`CVPR2025`、`CVPR2026`。
+截至 2026.10，Google Scholar 收录 16 项科研成果，其中 13 篇正式发表、3 篇预印本，累计引用 439 次（h-index 8，i10-index 8）。正式成果包括 5 篇`CVPR`、3 篇`AAAI`、2 篇`ECCV`、2 篇`TPAMI`和 1 篇`Information Fusion`论文。以`第一作者`发表`AAAI2024`、`AAAI2025-Oral`、`CVPR2025`和`CVPR2026`。
 
-As of 2026.04, Google Scholar lists 12 formal research works with 247 citations, including 5 `CVPR`, 3 `AAAI`, 1 `ECCV`, 2 `TPAMI`, and 1 `Information Fusion` papers. Among them, I have published `AAAI2024`, `AAAI2025-Oral`, `CVPR2025`, and `CVPR2026` as `first author`.
+As of 2026.10, Google Scholar lists 16 research works, including 13 formal publications and 3 preprints, with 439 citations (h-index 8, i10-index 8). The formal publications include 5 `CVPR`, 3 `AAAI`, 2 `ECCV`, 2 `TPAMI`, and 1 `Information Fusion` papers. I am the first author of `AAAI2024`, `AAAI2025-Oral`, `CVPR2025`, and `CVPR2026`.
+
+- **arXiv 2026** : Beyond Spatial Benchmarks: From Spatial Reasoning to Navigation.
+
+$~~~~~~$ `Xun Huang`, Shijia Zhao, Rongsheng Qu, Jiayuan Li, Xin Lu, Weixin Li, Chenglu Wen, Cheng Wang. [[paper]](https://arxiv.org/abs/2609.29934) [[code]](https://github.com/ylwhxht/Spatial-Nav)
+
+- **arXiv 2026** : AW-MoE: All-Weather Mixture of Experts for Robust Multi-Modal 3D Object Detection.
+
+$~~~~~~$ Hai Lin, `Xun Huang`, Chenglu Wen, Cheng Wang. [[paper]](https://arxiv.org/abs/2603.16261)
+
+- **arXiv 2026** : Memory-Guided View Refinement for Dynamic Human-in-the-loop EQA.
+
+$~~~~~~$ Xin Lu, Rui Li, `Xun Huang`, Weixin Li, Chao Zhuang, Jiayuan Li, Zhen Lu, Jing Xiao, Yunhong Wang. [[paper]](https://arxiv.org/abs/2603.09541)
 
 ---
 
@@ -173,6 +185,10 @@ $~~~~~~$ Qiming Xia, Wei Ye, Hai Wu, Shijia Zhao, Leyuan Xing, `Xun Huang`, Jinh
 - **ECCV2024** : CMD: A Cross Mechanism Domain Adaptation Dataset for 3D Object Detection
 
 $~~~~~~$ Jinhao Deng, Wei Ye, Hai Wu, `Xun Huang`, Qiming Xia, Xin Li, Jin Fang, Wei Li, Chenglu Wen, Cheng Wang. [[paper]](https://doi.org/10.1007/978-3-031-72998-0_13) [[code]](https://github.com/im-djh/CMD)
+- **ECCV2026** : C2E: Boosting Ego-Only 3D Object Detection via Multi-Teacher Contrastive Knowledge Distillation.
+
+$~~~~~~$ Jinlong Wang, `Xun Huang`, Qiming Xia, Shijia Zhao, Chenglu Wen. [[paper]](https://arxiv.org/abs/2607.01827)
+
 <span class='anchor' id='-jsjx'></span>
 
 
